@@ -8,7 +8,7 @@ const Brand = () => {
     return (
         <div className = 'gpt3__brand section__padding'>
             <div>
-                <button><a href = "www.google.com"><img src = {google} alt= "google"/></a></button>
+                <button><a href = "https://www.google.com"><img src = {google} alt= "google"/></a></button>
             </div>
             <div>
                 <img src = {slack} alt= "slack"/>

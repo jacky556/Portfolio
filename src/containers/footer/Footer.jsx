@@ -1,36 +1,29 @@
 import React from 'react'
 import './footer.css'
-import gpt3logo from '../../assets/logo.svg'
+import logo from '../../assets/StudioLogo.png'
 
 const Footer = () => {
     return (
-        <div className="gpt3__footer section__padding">
-            <div className="gpt3__footer-heading">
-                <h1 className="gradient__text">Do you want to cum?</h1>
+        <div className="footer section__padding">
+            <div className="footer-heading">
+                <h1>Thank you for visiting!</h1>
             </div>
-            <div className="gpt3__footer-btn">
-                <p>Request Early Access</p>
+            <div className="footer-btn">
+                <a href="#home"><p>Back to home</p></a>
             </div>
 
-            <div className="gpt3__footer-links">
-                <div className="gpt3__footer-links_logo">
-                    <img src= {gpt3logo} alt="logo" />
-                    <p>qwerywiquer yweqrwqr, qwer, all rights reserved</p>
+            <div className="footer-links">
+                <div className="footer-links_logo">
+                    <a href='#home'><img src= {logo} alt="logo" /></a>
                 </div>
-                <div className="gpt3__footer-links_div">
+                <div className="footer-links_div">
                     <h4>Links</h4>
-                    <p>Overons</p>
-                    <p>Social Media</p>
-                    <p>Counters</p>
-                    <p>Contact</p>                    
+                    <a href='#links'><p>Linkedin</p></a>
+                    <a href='#links'><p>Facebook</p></a>
+                    <a href='#links'><p>Instagram</p></a>
+                    <a href='#links'><p>Github</p></a>                    
                 </div>
-                <div className="gpt3__footer-links_div">
-                    <h4>Company</h4>
-                    <p>Terms & Conditions</p>
-                    <p>Privacy Policy</p>
-                    <p>Contact</p>                    
-                </div>
-                <div className="gpt3__footer-links_div">
+                <div className="footer-links_div">
                     <h4>Get in touch</h4>
                     <p>On Tat Estate, Sau Mau Ping, Kwun Tong</p>
                     <p>+852-92338312</p>
@@ -38,7 +31,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="gpt3__footer-copyright">
+            <div className="footer-copyright">
                 <p> 2021 Casual Studio. All rights reserved.</p>
             </div>
 

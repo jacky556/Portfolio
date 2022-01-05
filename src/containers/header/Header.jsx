@@ -13,18 +13,11 @@ const Header = () => {
                 <p className= "describe ">
                     This is a fully responsive react application.
                     If you are a PC user, go ahead to adjust the window's size!
-                    <br/><br/>Also, in case you have any comment to this website, please
-                    type(optional) your email-address into the below textbox and
-                    click the <b span style= {{ color:"orangered" }}>ORANGERED BUTTON</b>.
+                    <br/><br/>The below function is still working on progress. Please look forward!
                 </p>
                 <div className = "header-content__input">
-                    <input type = "email" placeholder = "Your Email Address"></input>
-                    <button type = "button">Get Started</button>
-                </div>
-
-                <div className = "header-content__people">
-                    <img src = {people} alt = "people"/>
-                    <p>1000 people requested access.</p>
+                    <input type = "email" placeholder = "This function is Coming Soon!"></input>
+                    <button type = "button">N.A.</button>
                 </div>
             </div>
             <div className = "header-image ">

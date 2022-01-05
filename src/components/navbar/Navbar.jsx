@@ -51,7 +51,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className = "navbar-sign">
-                <button type = "button">Comment</button>
+                <button type = "button">Coming Soon</button>
             </div>
             <div className = "navbar-menu">
                 {toggleMenu

@@ -6,7 +6,10 @@ import "aos/dist/aos.css";
 import { Footer, Links, About, Header, Structure } from './containers';
 import { CTA, Navbar } from './components';
 
-
+//git add .
+//git commit -m "update"
+//npm run deploy
+//git push -u origin master
 
 const App = () => {
 

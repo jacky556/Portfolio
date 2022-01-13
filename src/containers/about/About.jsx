@@ -13,7 +13,7 @@ const About = () => {
         },
         {
             title: "Prog. languages",
-            text: <p><u><strong>Hands-On level</strong></u><br/>HTML, CSS, Javascript(React.js, jsx), PHP, C#(Unity with Firebase), SQL.<br/>
+            text: <p><u><strong>Hands-On level</strong></u><br/>HTML, CSS, Javascript(React.js, jsx),SQL(MySQL), C#(Unity with Firebase).<br/>
             <u><strong>Entry level</strong></u><br/>Python(pandas, tweepy, instapy) for social media data scraping.</p>
         },
         {

@@ -1,34 +1,22 @@
-import React, { useEffect } from 'react';
-import './App.css';
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Main from "./pages/Main";
+import Email from "./pages/Email";
+import ErrorPage from "./pages/ErrorPage";
 
-import { Footer, Links, About, Header, Structure } from './containers';
-import { CTA, Navbar } from './components';
-
-//git add .
-//git commit -m "update"
-//npm run deploy
-//git push -u origin master
+import './App.css'
 
 const App = () => {
-
-    useEffect(() =>{
-        Aos.init({
-            duration:1000
-        });
-    }, []);
-
     return (
-        <div className = "gradient__bg">
-            <Navbar />
-            <Header />
-            <div data-aos = "fade-right"><Structure /></div>
-            <div data-aos = "slide-right"><About /></div>
-            <div data-aos = "fade-down-right"><CTA /></div>
-            <div data-aos = "fade"><Links /></div>
-            <div><Footer /></div>
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Main />} />
+                <Route path="/portfolio" element={<Main />} />
+                <Route path="/Email" element={<Email />} />
+                {/* has to be last to add for error* */}
+                <Route path ="*" element={<ErrorPage/>}/>
+            </Routes>
+        </Router>
     )
 }
 

@@ -9,7 +9,7 @@
 
 .features-container__feature-title{
     flex:1;
-    max-width: 180px;
+    max-width: fit-content;
     margin-right: 1rem;
     margin-bottom: 1rem;
 }

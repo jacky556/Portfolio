@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './navbar.css'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import logo from '../../assets/StudioLogo.png'
+import { useNavigate } from 'react-router-dom'
 
 const Menu = () =>(
     <>
@@ -14,6 +15,9 @@ const Menu = () =>(
 )
 
 const Navbar = () => {
+
+    let navigate = useNavigate();
+
     const [toggleMenu, setToggleMenu] = useState(false);
 
 
@@ -44,14 +48,16 @@ const Navbar = () => {
         <div className = {`navbar ${show && "navbar_o"}`}>
             <div className = "navbar-links slide-in-left">
                 <div className = "navbar-links_logo ">
-                    <a href='#home'><img src = { logo } alt = "logo" /></a>
+                    <img src = { logo } alt = "logo" onClick={() => {navigate("/portfolio")}} />
                 </div>
                 <div className = "navbar-links_container">
                    <Menu />
                 </div>
             </div>
             <div className = "navbar-sign">
-                <button type = "button">Coming Soon</button>
+                <button type = "button" onClick={() => {
+                    navigate("/Email");
+                }}>REGISTER</button>
             </div>
             <div className = "navbar-menu">
                 {toggleMenu
@@ -63,7 +69,7 @@ const Navbar = () => {
                         <div className = "navbar-menu_container-links">
                             <Menu />
                             <div className = "navbar-menu_container-links-sign">
-                                <button type = "button">Comment</button>
+                                <button type = "button">REGISTER</button>
                             </div>
                         </div>
                     </div>

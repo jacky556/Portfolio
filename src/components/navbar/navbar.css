@@ -33,6 +33,7 @@
 .navbar-links_logo img{
     width: 110px;
     height: 50px;
+    cursor: pointer;
 }
 
 .navbar-links_container {

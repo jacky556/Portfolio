@@ -1,0 +1,189 @@
+.content__input {
+    padding: 0 2rem;
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.content__input input{
+    width: 100%;
+    min-height: 50px;
+    background: none;
+    border: 2px solid var(--color-footer);
+    font-family: var(--font-family);
+    font-size: 20px;
+    padding:0 1rem;
+    outline: none;
+    color: white;
+    line-height: 27px;
+    color: #3D6184;
+
+}
+
+.content__options {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2rem;
+}
+.content__options button{
+    flex: 1;
+    width: 100%;
+    min-height: 50px;
+
+    background: none;
+    color: orangered;
+
+    font-family: var(--font-family);
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 27px;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: 2px solid orangered;
+    
+    border-radius: 5px;
+}
+
+.manageBlock{
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(162, 159, 158, 1) 73%);;
+    border-image-slice: 1;
+}
+
+.manageBlock__searchBar {
+    background: none;
+    display: flex;
+}
+
+.manageBlock__searchBar input{
+    flex: 3;
+    min-height: 50px;
+    background: none;
+    border: 2px solid var(--color-footer);
+    font-family: var(--font-family);
+    font-size: 20px;
+    padding:0 1rem;
+    outline: none;
+    color: white;
+    line-height: 27px;
+    color: #3D6184;
+}
+
+.manageBlock__searchBar button{
+    flex: 0.5;
+    min-height: 50px;
+
+    background: none;
+    color: orangered;
+
+    font-family: var(--font-family);
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 27px;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: 2px solid orangered;
+    
+    border-radius: 5px;
+}
+
+.manageBlock__emailManage{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    max-height:200px;
+    overflow:auto;
+    border: 2px solid black;
+    padding: 1rem;
+    justify-items: center;
+}
+
+.manageBlock__emailManage__emailrows{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: var(--font-family);
+    margin-top: 1rem;
+}
+
+.manageBlock__emailManage__emailrows h1{
+    flex: 1;
+    font-size: 20px;
+}
+
+.manageBlock__emailManage__emailrows h4{
+    flex: 3;
+    font-size: 20px;
+}
+
+.manageBlock__emailManage__emailrows__emailsection{
+    flex: 3;
+    display: flex;
+}
+
+.manageBlock__emailManage__emailrows__buttonsection{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.manageBlock__emailManage__emailrows__buttonsection button{
+    margin-right: 1rem;
+    color: orangered;
+
+    font-family: var(--font-family);
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 27px;
+    cursor: pointer;
+    padding: 0 1rem;
+    border: 2px solid orangered;
+    
+    border-radius: 5px;
+}
+
+.manageBlock__modifyBar {
+    background: none;
+    display: flex;
+}
+
+.manageBlock__modifyBar input{
+    flex: 3;
+    min-height: 50px;
+    background: none;
+    border: 2px solid var(--color-footer);
+    font-family: var(--font-family);
+    font-size: 20px;
+    padding:0 1rem;
+    outline: none;
+    color: white;
+    line-height: 27px;
+    color: #3D6184;
+}
+
+.manageBlock__modifyBar button{
+    flex: 0.5;
+    min-height: 50px;
+
+    background: white;
+    color: orangered;
+
+    font-family: var(--font-family);
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 27px;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: 2px solid orangered;
+    
+    border-radius: 5px;
+}

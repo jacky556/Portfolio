@@ -13,7 +13,7 @@ const Structure = () => {
                     <strong className='gradient__text'> Smooth Scrolling </strong>is also applied in here.<br/>A 
                     <strong className='gradient__text'> Gallery </strong>to show my arts and current project is created.<br/>
                     Last but not least, a email register page is created and linked with useRoute. This page is also running as a back-end application
-                    for managing emails in the local host mySQL database.</p></div>}/>
+                    for managing emails in the <strong className='gradient__text'>Cloud Firestore</strong>.</p></div>}/>
             </div>
 
             <div className="structure-heading">

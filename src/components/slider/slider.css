@@ -87,3 +87,25 @@
     height: 30px;
   }
 }
+
+@media screen and (max-width: 426px){
+  .container-slider{
+    margin: 0 -1rem
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .container-slider{
+    margin: 0 -1.5rem -2rem -1.5rem
+  }
+  
+}
+
+@media screen and (max-width: 326px) {
+  .slide img{
+    padding: 0 2rem
+  }
+  .container-slider{
+    margin: -3rem -1.5rem;
+  }
+}

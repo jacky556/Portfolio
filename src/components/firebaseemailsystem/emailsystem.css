@@ -1,4 +1,6 @@
-.section__margin button{
+.section__margin button,
+.manageBlock__seleteTags select
+{
     background: none;
     min-height: 50px;
     color: orangered;
@@ -100,28 +102,30 @@
 }
 
 .manageBlock__emailManage__emailrows h1{
-    flex: 1;
     font-size: 20px;
 }
 
 .manageBlock__emailManage__emailrows h4{
-    flex: 3;
     font-size: 20px;
 }
 
 .manageBlock__emailManage__emailrows__emailsection{
     flex: 3;
     display: flex;
+    vertical-align: middle;
+    line-height: 50px;
 }
 
 .manageBlock__emailManage__emailrows__buttonsection{
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 100px;
 }
 
 .manageBlock__emailManage__emailrows__buttonsection button{
-    margin-right: 1rem;
+    width: 100%;
+    font-size: 20px;
 }
 
 .manageBlock__modifyBar {
@@ -164,21 +168,94 @@
 }
 
 .manageBlock__seleteTags select{
-    background: none;
     min-height: 30px;
-    color: orangered;
-    font-family: var(--font-family);
-    font-weight:bold;
-    font-size: 15px;
-    line-height: 27px;
-    cursor: pointer;
-    outline: none;
-    padding: 0 1rem;
-    border: 2px solid orangered;
-    border-radius: 5px;
 }
 
 .manageBlock__seleteTags optgroup{
     
     background-color: rgba(226, 184, 151, 0.59);
+}
+
+@media screen and (max-width: 769px) {
+    .manageBlock__emailManage__emailrows{
+        flex-direction: column;
+    }
+    .manageBlock__emailManage__emailrows__buttonsection{
+        margin-top: 1rem;
+        max-height: 50px;
+        margin-left: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .manageBlock__searchBar input,
+    .manageBlock__searchBar button{
+        font-size: 15px;
+    }
+    .manageBlock__seleteTags__topic,
+    .manageBlock__emailManage__emailrows__buttonsection button{
+        font-size: 11px;
+    }
+    .manageBlock__seleteTags select{
+        font-size: 13px;
+    }
+    .manageBlock__emailManage__emailrows__emailsection h1{
+        font-size: 20px;
+    }
+    .manageBlock__emailManage__emailrows__emailsection h4{
+        font-size: 15px;
+    }
+    .manageBlock__emailManage__emailrows__buttonsection{
+        margin-top: 0.5rem;
+    }
+    .manageBlock__emailManage__emailrows__emailsection {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .manageBlock__searchBar {
+        margin-left: -0.8rem;
+    }
+
+    .manageBlock__emailManage__emailrows__buttonsection button,
+    .manageBlock__modifyBar input,
+    .manageBlock__modifyBar button,
+    .content__input input,
+    .content__options button,
+    .manageBlock__searchBar input,
+    .manageBlock__searchBar button,
+    .manageBlock__seleteTags__topic,
+    .query_operate_section button{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .manageBlock__emailManage__emailrows__buttonsection {
+        margin-right: -0.4rem;
+    }
+    
+
+    .manageBlock__emailManage__emailrows__buttonsection button,
+    .manageBlock__modifyBar input,
+    .manageBlock__modifyBar button,
+    .content__input input,
+    .content__options button,
+    .manageBlock__searchBar input,
+    .manageBlock__searchBar button,
+    .manageBlock__seleteTags__topic,
+    .query_operate_section button{
+        font-size: 10px;
+    }
+
+    .manageBlock__emailManage__emailrows__emailsection h4{
+        font-size: 10px;
+    }
+
+    .manageBlock__emailManage__emailrows__emailsection h1{
+        font-size: 15px;
+    }
 }

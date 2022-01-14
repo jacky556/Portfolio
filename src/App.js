@@ -8,7 +8,8 @@ import './App.css'
 
 const App = () => {
     return (
-        <Router>
+        //basename for Refresh issue
+        <Router basename='/portfolio'>
             <Routes>
                 <Route path="/" element={<Main />} />
                 <Route path="/portfolio" element={<Main />} />

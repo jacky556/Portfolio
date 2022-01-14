@@ -69,7 +69,9 @@ const Navbar = () => {
                         <div className = "navbar-menu_container-links">
                             <Menu />
                             <div className = "navbar-menu_container-links-sign">
-                                <button type = "button">REGISTER</button>
+                                <button type = "button" onClick={() => {
+                                    navigate("/Email");
+                                }}>REGISTER</button>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './header.css'
 import myicon from '../../assets/myicon.png';
 
@@ -10,7 +10,7 @@ const Header = () => {
         <div className = "header section__padding" id="home">
             <div className = "header-content scale-up-ver-top">
                 <h1 className = "gradient__text ">
-                    WELCOME, to the Portfoloio of Jacky Tse.
+                    WELCOME, to the Portfolio of Jacky Tse.
                 </h1>
                 <p className= "describe">
                     This is a fully responsive react application.

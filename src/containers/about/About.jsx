@@ -13,12 +13,12 @@ const About = () => {
         },
         {
             title: "Prog. languages",
-            text: <p><u><strong>Hands-On level</strong></u><br/>HTML, CSS, Javascript(React.js, jsx),SQL(MySQL), C#(Unity with Firebase).<br/>
+            text: <p><u><strong>Hands-On level</strong></u><br/><strong className='gradient__text'>HTML, CSS, Javascript(React.js, Cloud FireStore, Axios),SQL(MySQL Local Host), C#(Unity with Firebase Realtime Database).</strong><br/>
             <u><strong>Entry level</strong></u><br/>Python(pandas, tweepy, instapy) for social media data scraping.</p>
         },
         {
             title: "Other Production Tools",
-            text: <p><u><strong>Experienced(For Programming)</strong></u><br/>VisualCode, UnityEditor, Github<br/>
+            text: <p><u><strong>Experienced(For Programming)</strong></u><br/>VisualCode, Github, UnityEditor<br/>
             <u><strong>Experienced(For Production)</strong></u><br/>Microsoft Office(PPT, Word, Excel), Canva, Adobe Photoshop, Shotcut<br/>
             <u><strong>Entry level</strong></u><br/>JupyterLab, Excel VBA & Macro<br/></p>
         },

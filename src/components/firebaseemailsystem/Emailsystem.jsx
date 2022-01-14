@@ -203,10 +203,6 @@ const Emailsystem = () => {
         }
     }
 
-
-    console.log(latestNum)
-
-
    
     {/*
         //Always async await the api call "setDoc" to let the call do first
@@ -300,7 +296,7 @@ const Emailsystem = () => {
             </div>
             <div className='manageBlock'>
                 <div className='manageBlock__searchBar'>
-                    <input type= "text" placeholder= "Search email(s) that START WITH" value = {keyword} onChange={(event) => 
+                    <input type= "text" placeholder= "Search email(s) that START WITH & Exact Wording" value = {keyword} onChange={(event) => 
                         {
                             setKeyword(event.target.value);
                         }

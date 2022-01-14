@@ -54,7 +54,8 @@ const Structure = () => {
                     <p><span className='gradient__text'>1.</span> Basic CRWD with local network.</p>
                     <p><span className='gradient__text'>2.</span> Auto-update List & Auto-increment ID in database.</p>
                     <p><span className='gradient__text'>3.</span> Query Operations</p>
-                    <p><span className='gradient__text'>4.</span> API key could be hid by dotnev</p>
+                    <p><span className='gradient__text'>4.</span> Shows half of the RESTful development, as the system uses only Axios with Post & Get to perform all CRUD functions.</p>
+                    <p><span className='gradient__text'>5.</span> API key could be hid by dotnev</p>
                 </div>}/>
             </div>
         </div>

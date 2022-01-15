@@ -8,6 +8,10 @@
     border-image-slice: 1;
 }
 
+.gradient__text{
+    display: block;
+}
+
 .about-title{
     width: 100%;
     text-align: center;

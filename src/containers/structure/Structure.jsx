@@ -8,7 +8,7 @@ const Structure = () => {
             <div className="structure-feature">
                 <Feature title="Website Structure" 
                 text = {<div><p>Currently, this react website has a <span className='gradient__text'><strong>fully responsive</strong></span> front-end design which compatible to different 
-                    devices.<br/>The body consist <span className='gradient__text'><strong>gradient texts, images and backgrounds</strong></span>.<br/> 
+                    devices.<br/>The body consist <span className='gradient__text'>gradient texts</span>, images and backgrounds.<br/> 
                     It also involves <span className="vibrate-1">ANIMATIONS</span> for some of the components and containers.<br/> 
                     <strong className='gradient__text'> Smooth Scrolling </strong>is also applied in here.<br/>A 
                     <strong className='gradient__text'> Gallery </strong>to show my arts and current project is created.<br/>

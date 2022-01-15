@@ -8,6 +8,14 @@
     border-image-slice: 1;
 }
 
+.gradient__textt{
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color:transparent;
+    display: block;
+}
+
 .about-title{
     width: 100%;
     text-align: center;

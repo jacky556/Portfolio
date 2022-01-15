@@ -12,7 +12,7 @@ const Structure = () => {
                     It also involves <span className="vibrate-1">ANIMATIONS</span> for some of the components and containers.<br/> 
                     <strong className='gradient__text'> Smooth Scrolling </strong>is also applied in here.<br/>A 
                     <strong className='gradient__text'> Gallery </strong>to show my arts and current project is created.<br/>
-                    Last but not least, a email register page is created and linked with useRoute. This page is also running as a back-end application
+                    Last but not least, a emgister page is created and linked with useRoute. This page is also running as a back-end application
                     for managing emails in the <strong className='gradient__text'>Cloud Firestore</strong>.</p></div>}/>
             </div>
 

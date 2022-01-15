@@ -14,7 +14,7 @@ const About = () => {
         {
             title: "Prog. languages",
             text: <div><p><u><strong>Hands-On level</strong></u></p>
-            <p><span className= "gradient__text">HTML, CSS, Javascript(React.js, Cloud FireStore, Axios),SQL(MySQL Local Host), C#(Unity with Firebase Realtime Database).</span></p>
+            <p>HTML, CSS, Javascript(React.js, Cloud FireStore, Axios),SQL(MySQL Local Host), C#(Unity with Firebase Realtime Database).</p>
             <p><u><strong>Entry level</strong></u><br/>Python(pandas, tweepy, instapy) for social media data scraping.</p></div>
         },
         {
